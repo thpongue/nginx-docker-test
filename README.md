@@ -1,6 +1,12 @@
+# prerequisites
+Install docker
+Install nginx
+
+# nginx-docker-test
 Example of docker and nginx working together to serve the contents of your dist folder on http://localhost:8080
 For convenience I've turned the docker build and run commands into shell scripts.
 
+# steps
 1. build the image
 ./build.sh
 
